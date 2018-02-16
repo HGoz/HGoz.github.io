@@ -1,0 +1,461 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+ ********************
+ * Default Styles
+ ********************
+*/
+
+body {
+	color:white;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 100%;
+	background:#333333;
+}
+
+h1, h2, h3, h4, h5, h6, nav {
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-weight: bold;
+}
+
+h1 {
+	position:absolute;
+	left:-9999px;
+}
+
+h2 {
+	font-size:2em;
+	margin-bottom:1em;
+}
+
+h3 {
+	font-size:1.4em;
+	margin-bottom:.6em;
+}
+
+a {
+	color:white;
+	text-decoration: none;
+}
+
+p {
+	line-height: 1.5em;
+	margin-bottom:2em;
+}
+
+a:hover {
+	color: #cccccc;
+}
+
+#wrap {
+	width:98%;
+	max-width: 1024px;
+	position:relative;
+	margin:auto;
+	margin-top: 350px;
+}
+
+#about, #experience, .bio {
+	background:#026abb;
+	background-color: transparent;
+	background:rgba(2,106,187,.8);
+	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#80026abb,endColorstr=#80026abb);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#80026abb,endColorstr=#80026abb)";
+	padding:2%;
+	max-height: 600px;
+}
+
+#contact, #resources {
+	color:#222222;
+	background:#fff;
+	background-color: transparent;
+	background:rgba(255,255,255,.8);
+	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#80ffffff,endColorstr=#80ffffff);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#80ffffff,endColorstr=#80ffffff)";
+	padding:2%;
+	max-height: 600px;
+}
+
+#contact a, #resources a {
+	color:#026abb;
+}
+
+#home, #about, #professionals, #resources, #experience, #contact {
+	width:96%;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+#professionals {
+	width: 100%;
+}
+
+#about, #professionals, #resources, #experience, #contact {
+	display: none;
+}
+
+/*
+ ********************
+ * Home
+ ********************
+*/
+
+#home {
+	width:100%;
+}
+
+#home img {
+	padding: 0 5%;
+	max-width:90%;
+}
+
+nav {
+	text-align: right;
+	font-size:1.4em;
+	text-transform: uppercase;
+	line-height: 2.4em;
+}
+
+#home .col1, #home .col2 {
+	height:271px;
+	padding:20px 2%;
+	width:46%;
+	float:left;
+	overflow:hidden;
+}
+
+#home .col1 {
+	background:#fff;
+	background-color: transparent;
+	background:rgba(255,255,255,.8);
+	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#80ffffff,endColorstr=#80ffffff);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#80ffffff,endColorstr=#80ffffff)";
+}
+
+#home .col2 {
+	background:#026abb;
+	background-color: transparent;
+	background:rgba(2,106,187,.8);
+	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#80026abb,endColorstr=#80026abb);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#80026abb,endColorstr=#80026abb)";
+}
+
+/*
+ ********************
+ * About
+ ********************
+*/
+
+#about {
+	overflow:auto;
+}
+
+#about .col1, #about .col2 {
+	float:left;
+}
+
+#about .col1 {
+	margin-right:4%;
+	width:59%;
+}
+
+#about .col2 {
+	width:37%;
+}
+
+#about .col2 li {
+	list-style-type: disc;
+	margin-left:20px;
+	line-height: 2.4em;
+}
+
+/*
+ ********************
+ * Professionals
+ ********************
+*/
+
+.bio {
+	width:45%;
+	margin-left:2%;
+	margin-bottom:2%;
+	float:left;
+}
+
+.odd {
+	margin-left:0;
+}
+
+.bio img {
+	float:right;
+	margin-left:2%;
+}
+
+.more-info {
+	display:none;
+	margin-top: 1.6em;
+}
+
+.more-trigger a:hover {
+	color:#cccccc;
+}
+
+.title {
+	font-size: 1.2em;
+	font-style: italic;
+	margin-bottom:1em;
+}
+
+.back {
+	display:none;
+}
+
+/*
+ ********************
+ * Resources
+ ********************
+*/
+
+#resources .col1, #resources .col2 {
+	float:left;
+	width: 50%;
+}
+
+#resources .col1 {
+	width:48%;
+	margin-right: 2%;
+}
+
+#resources .col2 {
+	overflow:hidden;
+	height:300px;
+}
+
+/*
+ ********************
+ * Clients
+ ********************
+*/
+
+#experience {
+	overflow:auto;
+}
+
+#experience ul {
+	margin-bottom: 1em;
+}
+
+#experience li, #resources li {
+	line-height: 1.2em;
+}
+
+#experience .double-spaced li {
+	line-height:2.4em;
+}
+
+#experience .col1, #experience .col2 {
+	width:50%;
+	float:left;
+}
+
+#experience .col1 {
+	width:48%;
+	margin-right: 2%;
+}
+
+/*
+ ********************
+ * Footer
+ ********************
+*/
+
+footer {
+	color: #026abb;
+	background:#fff;
+	background:rgba(255,255,255,.8);
+	padding:5px;
+	width:98%;
+	padding: 15px 1%;
+	position:absolute;
+	bottom: 0;
+}
+
+footer a {
+	color:#026abb;
+}
+
+footer a:hover {
+	color: #222222;
+}
+
+footer p {
+	width:100%;
+	max-width:1024px;
+	margin:auto;
+	text-align: center;
+}
+footer img {
+	vertical-align: top;
+	margin-left:10px;
+}
+
+/*
+ ********************
+ * Contact
+ ********************
+*/
+
+#contact {
+	overflow:auto;
+}
+
+#contact .col1, #contact .col2 {
+	float:left;
+	width: 50%;
+}
+
+#contact .col1 {
+	width:48%;
+	margin-right: 2%;
+}
+
+#contact .col2 {
+	overflow:hidden;
+	height:370px;
+}
+
+#contact img {
+	max-width: 100%;
+}
+
+#contact .col2 p {
+	text-align: right;
+}
+
+/*
+ ********************
+ * Rotating Background
+ ********************
+*/
+
+#slideshow {
+	visibility: hidden;
+}
+
+#slideshow, img.bgM {
+        min-height: 100%;
+        min-width: 1024px;
+        width: 100%;
+        height: auto;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index:-9999;
+}
+
+/*
+ ********************
+ * Misc.
+ ********************
+*/
+
+.close {
+	font-size:60px;
+	position:fixed;
+	bottom: 60px;
+	left: 20px;
+	z-index:9999;
+	display:none;
+}
+
+.bio .close, #experience .close {
+	top: -23px;
+	left: -23px;
+}
+
+.clearfix {
+	content:"";
+    display:table;
+    clear:both;
+}
+
+/*
+ ********************
+ * Queries
+ ********************
+*/
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* Styles */
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+
+	.close {
+		bottom:120px;
+		left:20px;
+	}
+
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+
+
+
+}
