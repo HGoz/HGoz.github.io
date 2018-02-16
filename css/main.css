@@ -28,13 +28,43 @@ p {
     line-height: 1.4em;
     color: #333;
 }
+
+/*
+ ********************
+ * Footer
+ ********************
+*/
+
 footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+	color: #026abb;
+	background:#fff;
+	background:rgba(255,255,255,.8);
+	padding:5px;
+	width:98%;
+	padding: 15px 1%;
+	position:absolute;
+	bottom: 0;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
+footer a {
+	color:#026abb;
+}
+footer a:hover {
+	color: #222222;
+}
+footer p {
+	width:100%;
+	max-width:1024px;
+	margin:auto;
+	text-align: center;
+}
+footer img {
+	vertical-align: top;
+	margin-left:10px;
+}
+
+ul.posts {
+    margin: 20px auto 40px;
     font-size: 1.5em;
 }
 
