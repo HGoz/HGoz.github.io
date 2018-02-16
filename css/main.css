@@ -65,6 +65,32 @@ footer img {
 
 /*
  ********************
+ * Misc.
+ ********************
+*/
+
+.close {
+	font-size:60px;
+	position:fixed;
+	bottom: 60px;
+	left: 20px;
+	z-index:9999;
+	display:none;
+}
+
+.bio .close, #experience .close {
+	top: -23px;
+	left: -23px;
+}
+
+.clearfix {
+	content:"";
+    display:table;
+    clear:both;
+}
+
+/*
+ ********************
  * Queries
  ********************
 */
