@@ -63,6 +63,44 @@ footer img {
 	margin-left:10px;
 }
 
+/*
+ ********************
+ * Queries
+ ********************
+*/
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* Styles */
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+
+	.close {
+		bottom:120px;
+		left:20px;
+	}
+
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+
+
+
+}
+
 ul.posts {
     margin: 20px auto 40px;
     font-size: 1.5em;
