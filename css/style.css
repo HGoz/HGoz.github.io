@@ -74,10 +74,10 @@ body a:focus {
     font-size: 3.5em;
     line-height: 1.5em;
     display: inline-block;
-    border: solid #7ecaf6;
+    border: solid #022140;
     border-width: 4px;
     color: rgb(255, 255, 255);
-    background: #567182;
+    background: #265077;
     padding: 0 1em;
     letter-spacing: 1px;
     font-weight: 800;
@@ -362,14 +362,14 @@ h3.agileits-title {
     text-transform: uppercase;
     font-weight: 600;
     margin-bottom: 1.5em;
-    color: #1853a1;
+    color: #022140;
     text-align: center;
 }
 
 a.wthree-.about-link {
     color: #fff;
-    border: 1px solid #03afdd;
-    background: #03afdd;
+    border: 1px solid #022140;
+    background: #265077;
     border-radius: 0;
     padding: 0.5em 2.5em;
     outline: none;
@@ -387,15 +387,15 @@ a.wthree-.about-link {
 }
 
 .agileits-about-grid1 {
-    background: #7bd0c1;
+    background: #494b68;
 }
 
 .agileits-about-grid2 {
-    background: #f2849e;
+    background: #1e4258;
 }
 
 .agileits-about-grid3 {
-    background: #7ecaf6;
+    background: #2d5f5d;
 }
 
 
@@ -418,7 +418,7 @@ a.wthree-.about-link {
 
 
 h4.agileinfo-head {
-    color: #005da2;
+    color: #022140;
     text-transform: capitalize;
     font-weight: 600;
     margin: 0.7em 0;
@@ -717,7 +717,7 @@ div#services h3 {
 }
 
 div#services {
-    background: #03afdd;
+    background: #265077;
 }
 
 .agileits-hglayouts h5 {
@@ -893,7 +893,7 @@ div#services {
 }
 
 .contact-left-hgls h4 {
-    color: #49c7ed;
+    color: #265077;
     font-weight: 600;
     margin-top: 0.4em;
     font-size: 1.2em;
@@ -967,8 +967,8 @@ div#services {
     font-weight: 600;
     padding: 0.5em 0;
     letter-spacing: 1px;
-    border: 1px solid #696867;
-    background: #1853a1;
+    border: 1px solid #022140;
+    background: #265077;
 }
 
 .agile_form input[type="submit"]:hover {
@@ -1022,7 +1022,7 @@ ul.hg-links {
 
 ul.hg-links li a i.fa {
     color: #f5f5f5;
-    background: #1853a1;
+    background: #022140;
     font-size: 1em;
     line-height: 2.2em;
     text-align: center;
@@ -1047,7 +1047,7 @@ ul.hg-links li a i.fa:hover {
 .agileits_hglayouts-footer {
     text-align: center;
     padding: 2em 0;
-    background: #1853a1;
+    background: #022140;
 }
 
 .agileits_hglayouts-footer p {
