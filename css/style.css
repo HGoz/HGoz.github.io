@@ -1,6 +1,6 @@
 /*--
-Author: W3layouts
-Author URL: http://w3layouts.com
+Author: hglayouts
+Author URL: http://hglayouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
@@ -86,7 +86,7 @@ body a:focus {
 .banner-text h1 a {
     color: #fff;
 }
-h2.w3ls-bnrtext {
+h2.hgls-bnrtext {
     color: #fff;
     margin: 0.8em 0 0.2em;
     font-size: 4em;
@@ -95,11 +95,11 @@ h2.w3ls-bnrtext {
     text-transform: uppercase;
 }
 
-h2.w3ls-bnrtext span {
+h2.hgls-bnrtext span {
     font-weight: 800;
 }
 
-p.w3ls-p {
+p.hgls-p {
     font-size: 1.2em;
     color: #fff;
     text-transform: capitalize;
@@ -350,7 +350,7 @@ nav a:hover:after {
 
 /*-- //menu-navigation --*/
 
-.w3ls-section {
+.hgls-section {
     padding: 5em 0;
 }
 
@@ -443,7 +443,7 @@ h4.agileinfo-head {
 
 /* skills */
 
-.w3_agileits-service-left h3 {
+.hg_agileits-service-left h3 {
     text-align: left;
     color: #fff;
 }
@@ -477,14 +477,14 @@ div#skills {
     margin-bottom: 0.8em;
 }
 
-.skills-w3lsleft ul li {
+.skills-hglsleft ul li {
     display: block;
     font-size: 1em;
     color: #999;
     margin-top: 1em;
 }
 
-.skills-w3lsleft ul li i.fa {
+.skills-hglsleft ul li i.fa {
     font-size: 1.2em;
     margin-right: 0.5em;
 }
@@ -650,11 +650,11 @@ span.value {
 
 /* services */
 
-.w3ls-sub-text {
+.hgls-sub-text {
     padding-left: 3em;
 }
 
-.w3_agileits-service-left p {
+.hg_agileits-service-left p {
     color: #fff;
 }
 
@@ -667,16 +667,16 @@ div#services h3 {
     -webkit-border-radius:50%;
 }
 
-.services-w3ls-row.agileits-w3layouts.service1,
-.services-w3ls-row.agileits-w3layouts.service4 {
+.services-hgls-row.agileits-hglayouts.service1,
+.services-hgls-row.agileits-hglayouts.service4 {
     margin: 0 auto;
     width: 25%;
     text-align: center;
     position: relative;
 }
 
-.services-w3ls-row.agileits-w3layouts.service1:before,
-.services-w3ls-row.agileits-w3layouts.service4:before {
+.services-hgls-row.agileits-hglayouts.service1:before,
+.services-hgls-row.agileits-hglayouts.service4:before {
     content: '';
     background: #fff;
     display: block;
@@ -687,21 +687,21 @@ div#services h3 {
     position: absolute;
 }
 
-.services-w3ls-row.agileits-w3layouts.service1:before {
+.services-hgls-row.agileits-hglayouts.service1:before {
     bottom: -35px;
 }
 
-.services-w3ls-row.agileits-w3layouts.service4:before {
+.services-hgls-row.agileits-hglayouts.service4:before {
     top: -35px;
 }
 
-.services-grid.agileits-w3layouts.service2 {
+.services-grid.agileits-hglayouts.service2 {
     text-align: right;
     padding-right: 4em;
     padding-left: 2em;
 }
 
-.services-grid.agileits-w3layouts.service3 {
+.services-grid.agileits-hglayouts.service3 {
     padding-left: 4em;
     padding-right: 2em;
 }
@@ -720,7 +720,7 @@ div#services {
     background: #03afdd;
 }
 
-.agileits-w3layouts h5 {
+.agileits-hglayouts h5 {
     color: #e4e0e0;
     font-size: 1.5em;
     text-transform: uppercase;
@@ -732,7 +732,7 @@ div#services {
     margin: 1em 0;
 }
 
-.services-grid.agileits-w3layouts {
+.services-grid.agileits-hglayouts {
     margin-top: 10em;
 }
 
@@ -813,7 +813,7 @@ div#services {
     border: solid 2px #03afdd;
 }
 
-.w3_tab_img_left {
+.hg_tab_img_left {
     padding: 0;
 }
 
@@ -846,12 +846,12 @@ div#services {
     -ms-transition: 0.5s all;
 }
 
-.w3_tab_img_left:hover .agile-gallery-info {
+.hg_tab_img_left:hover .agile-gallery-info {
     background: #03afdd;
     color: #FFFFFF;
 }
 
-.w3_tab_img_left:hover .agile-gallery-info p {
+.hg_tab_img_left:hover .agile-gallery-info p {
     color: #FFFFFF;
 }
 
@@ -861,7 +861,7 @@ div#services {
 
 /*-- Contact --*/
 
-.contact-main-w3ls {
+.contact-main-hgls {
     background: url(../images/contact.jpg) no-repeat center;
     background-size: cover;
 	-webkit-background-size: cover;
@@ -870,13 +870,13 @@ div#services {
     -ms-background-size: cover;
 }
 
-.contact-left-w3ls {
+.contact-left-hgls {
     padding: 0;
     background: rgba(0, 0, 0, 0.51);
     border-right: 1px solid rgba(255, 255, 255, 0.29);
 }
 
-.contact-right-w3l h3:before {
+.contact-right-hgl h3:before {
     width: 35%;
 }
 
@@ -886,13 +886,13 @@ div#services {
     font-size: 1.1em;
 }
 
-.contact-left-w3ls p {
+.contact-left-hgls p {
     color: #fff;
     font-size: 1em;
     letter-spacing: 1px;
 }
 
-.contact-left-w3ls h4 {
+.contact-left-hgls h4 {
     color: #49c7ed;
     font-weight: 600;
     margin-top: 0.4em;
@@ -911,7 +911,7 @@ div#services {
     color: #000;
 }
 
-.w3ls-text {
+.hgls-text {
     width: 48%;
     float: left;
 }
@@ -976,7 +976,7 @@ div#services {
     background: rgb(255, 255, 255);
 }
 
-.contact-right-w3l {
+.contact-right-hgl {
     padding: 5em 12em;
     border-right: 1px solid rgba(255, 255, 255, 0.29);
 }
@@ -1011,16 +1011,16 @@ div#services {
 
 /*-- social-icons --*/
 
-ul.w3-links li {
+ul.hg-links li {
     margin: 0 0.5em;
     display: inline-block;
 }
 
-ul.w3-links {
+ul.hg-links {
     margin-top: 0;
 }
 
-ul.w3-links li a i.fa {
+ul.hg-links li a i.fa {
     color: #f5f5f5;
     background: #1853a1;
     font-size: 1em;
@@ -1036,7 +1036,7 @@ ul.w3-links li a i.fa {
     border: 2px solid #fff;
 }
 
-ul.w3-links li a i.fa:hover {
+ul.hg-links li a i.fa:hover {
     color: #fff;
     background: transparent;
 }
@@ -1044,18 +1044,18 @@ ul.w3-links li a i.fa:hover {
 
 /*-- //contact --*/
 
-.agileits_w3layouts-footer {
+.agileits_hglayouts-footer {
     text-align: center;
     padding: 2em 0;
     background: #1853a1;
 }
 
-.agileits_w3layouts-footer p {
+.agileits_hglayouts-footer p {
     color: #fff;
     letter-spacing: 1px;
 }
 
-.agileits_w3layouts-footer p a {
+.agileits_hglayouts-footer p a {
     color: #7ecaf6;
     text-decoration: none;
     -webkit-transition: .5s all;
@@ -1063,7 +1063,7 @@ ul.w3-links li a i.fa:hover {
     transition: .5s all;
 }
 
-.agileits_w3layouts-footer p a:hover {
+.agileits_hglayouts-footer p a:hover {
     color: #fff;
 }
 
@@ -1111,7 +1111,7 @@ ul.w3-links li a i.fa:hover {
     .nav-tabs {
         width: 48%;
     }
-    .services-grid.agileits-w3layouts {
+    .services-grid.agileits-hglayouts {
         margin-top: 7em;
     }
 }
@@ -1129,10 +1129,10 @@ ul.w3-links li a i.fa:hover {
     .img-agileits:after {
         right: -35px;
     }
-    .services-grid.agileits-w3layouts.service3 {
+    .services-grid.agileits-hglayouts.service3 {
         padding-left: 1em;
     }
-    .services-grid.agileits-w3layouts.service2 {
+    .services-grid.agileits-hglayouts.service2 {
         padding-right: 2em;
     }
     .img-agileits:before {
@@ -1147,7 +1147,7 @@ ul.w3-links li a i.fa:hover {
     a.buy{
         width:23%;
     }
-    h2.w3ls-bnrtext {
+    h2.hgls-bnrtext {
         font-size: 3.5em;
     }
     .agileits-about-grid p {
@@ -1164,30 +1164,30 @@ ul.w3-links li a i.fa:hover {
     .nav-tabs {
         width: 62%;
     }
-    .services-w3ls-row.agileits-w3layouts.service1,.services- w3ls-row.agileits-w3layouts.service4,.services-grid.agileits-w3layouts.service2{
+    .services-hgls-row.agileits-hglayouts.service1,.services- hgls-row.agileits-hglayouts.service4,.services-grid.agileits-hglayouts.service2{
         margin: 0 1em;
         width: 46%;
         float: left;
        text-align: left;
        padding: 0;
     }
-    .services-w3ls-row.agileits-w3layouts.service1:before,.img-agileits:before,.img-agileits:after,.services-w3ls-row.agileits-w3layouts.service4:before{
+    .services-hgls-row.agileits-hglayouts.service1:before,.img-agileits:before,.img-agileits:after,.services-hgls-row.agileits-hglayouts.service4:before{
         display: none;
     }
-    .w3ls-sub-text {
+    .hgls-sub-text {
         padding-left: 0;
     }
     .sub-icon{
         padding: 0;
         margin: 1em 0;
     }
-    .services-grid.agileits-w3layouts{
+    .services-grid.agileits-hglayouts{
         margin: 0;
     }
     .sub-icon {
         margin-top: 1em;
     }
-  .services-grid.agileits-w3layouts.service3,.services-w3ls-row.agileits-w3layouts.service4 {
+  .services-grid.agileits-hglayouts.service3,.services-hgls-row.agileits-hglayouts.service4 {
         float: none;
         width: 100%;
         margin: 2em 0;
@@ -1206,7 +1206,7 @@ ul.w3-links li a i.fa:hover {
         margin-bottom: 1.2em;
         font-size: 2.3em;
     }
-    .w3ls-section {
+    .hgls-section {
         padding: 4em 0;
     }
 }
@@ -1214,7 +1214,7 @@ ul.w3-links li a i.fa:hover {
     .banner-text {
         padding: 10em 0;
     }
-    h2.w3ls-bnrtext {
+    h2.hgls-bnrtext {
         font-size: 3.3em;
     }
     .agile-gallery-info h5{
@@ -1224,10 +1224,10 @@ ul.w3-links li a i.fa:hover {
 
 
 @media screen and (max-width: 768px){
-    .services-w3ls-row.agileits-w3layouts.service1, .services- w3ls-row.agileits-w3layouts.service4, .services-grid.agileits-w3layouts.service2{
+    .services-hgls-row.agileits-hglayouts.service1, .services- hgls-row.agileits-hglayouts.service4, .services-grid.agileits-hglayouts.service2{
         padding: 1em;
     }
-    .services-grid.agileits-w3layouts.service3, .services-w3ls-row.agileits-w3layouts.service4{
+    .services-grid.agileits-hglayouts.service3, .services-hgls-row.agileits-hglayouts.service4{
         padding:0 2em;
     }
     .banner-text h1 {
@@ -1238,7 +1238,7 @@ ul.w3-links li a i.fa:hover {
     }
 }
 @media screen and (min-width: 737px){
-    .w3-flex{
+    .hg-flex{
         display: flex;
     }
     .ab1 {
@@ -1265,14 +1265,14 @@ ul.w3-links li a i.fa:hover {
     .vertical-skills li {
         width: 44px;
     }
-    .w3_tab_img_left {
+    .hg_tab_img_left {
         width: 50%;
         float: left;
     }
     .services-grid img {
         width: 50%;
     }
-    .services-w3ls-row.agileits-w3layouts.service1, .services- w3ls-row.agileits-w3layouts.service4, .services-grid.agileits-w3layouts.service2 {
+    .services-hgls-row.agileits-hglayouts.service1, .services- hgls-row.agileits-hglayouts.service4, .services-grid.agileits-hglayouts.service2 {
        width: 45%;
     }
     h3.agileits-title {
@@ -1295,7 +1295,7 @@ ul.w3-links li a i.fa:hover {
     }
 }
 @media screen and (max-width: 640px){
-    h2.w3ls-bnrtext {
+    h2.hgls-bnrtext {
         font-size: 3.1em;
     }
     .skills-right {
@@ -1304,7 +1304,7 @@ ul.w3-links li a i.fa:hover {
     .nav-tabs {
         width: 76%;
     }
-    .services-w3ls-row.agileits-w3layouts.service1, .services- w3ls-row.agileits-w3layouts.service4, .services-grid.agileits-w3layouts.service2 {
+    .services-hgls-row.agileits-hglayouts.service1, .services- hgls-row.agileits-hglayouts.service4, .services-grid.agileits-hglayouts.service2 {
         width: 84%;
     }
     .sub-icon span, .s-top span {
@@ -1322,7 +1322,7 @@ ul.w3-links li a i.fa:hover {
     a.buy {
         width: 30%;
     }
-    h2.w3ls-bnrtext {
+    h2.hgls-bnrtext {
         font-size: 3em;
     }
     .agileits-about-grid p {
@@ -1340,7 +1340,7 @@ ul.w3-links li a i.fa:hover {
     
 }
 @media screen and (max-width: 568px){
-    .services-w3ls-row.agileits-w3layouts.service1, .services- w3ls-row.agileits-w3layouts.service4, .services-grid.agileits-w3layouts.service2 {
+    .services-hgls-row.agileits-hglayouts.service1, .services- hgls-row.agileits-hglayouts.service4, .services-grid.agileits-hglayouts.service2 {
         width: 96%;
     }
     .nav-tabs {
@@ -1351,10 +1351,10 @@ ul.w3-links li a i.fa:hover {
     }
 }
 @media screen and (max-width: 480px){
-    h2.w3ls-bnrtext {
+    h2.hgls-bnrtext {
         font-size: 2.8em;
     }
-    p.w3ls-p {
+    p.hgls-p {
         font-size: 1.1em;
     }
     a.buy {
@@ -1369,10 +1369,10 @@ ul.w3-links li a i.fa:hover {
     .nav-tabs {
         width: 97%;
     }
-    .services-w3ls-row.agileits-w3layouts.service1, .services- w3ls-row.agileits-w3layouts.service4, .services-grid.agileits-w3layouts.service2 {
+    .services-hgls-row.agileits-hglayouts.service1, .services- hgls-row.agileits-hglayouts.service4, .services-grid.agileits-hglayouts.service2 {
         padding: 1em 1em 0.5em;
     }
-    .services-grid.agileits-w3layouts.service3, .services-w3ls-row.agileits-w3layouts.service4 {
+    .services-grid.agileits-hglayouts.service3, .services-hgls-row.agileits-hglayouts.service4 {
        margin: 1em 0;
     }
     .vertical-skills li span.title {
@@ -1383,7 +1383,7 @@ ul.w3-links li a i.fa:hover {
     .banner-text h1 {
         font-size: 2.6em;
     }
-    h2.w3ls-bnrtext {
+    h2.hgls-bnrtext {
         font-size: 2.5em;
     }
     .banner-text {
@@ -1408,7 +1408,7 @@ ul.w3-links li a i.fa:hover {
     .contact-grid-agileinfo {
         padding: 1.5em 0.6em;
     }
-    ul.w3-links li {
+    ul.hg-links li {
         margin: 0 0.4em;
     }
     .agileits-main-right {
@@ -1424,7 +1424,7 @@ ul.w3-links li a i.fa:hover {
         width: 26%;
         font-size: 1em;
     }
-    .agileits_w3layouts-footer {
+    .agileits_hglayouts-footer {
         padding: 2em 1em;
     }
 
@@ -1433,7 +1433,7 @@ ul.w3-links li a i.fa:hover {
     .banner-text {
         padding: 6em 0;
     }
-    h2.w3ls-bnrtext {
+    h2.hgls-bnrtext {
         font-size: 2.31em;
     }
     a.buy {
@@ -1450,7 +1450,7 @@ ul.w3-links li a i.fa:hover {
     .nav-tabs {
         margin: 0 auto 2em;
     }
-    .w3ls-section {
+    .hgls-section {
         padding: 3em 0;
     }
     .services-grid img {
@@ -1471,7 +1471,7 @@ ul.w3-links li a i.fa:hover {
     .pull-right{
         float: none !important;
     }
-    h3.agileits-title.cont-w3l {
+    h3.agileits-title.cont-hgl {
         text-transform: capitalize;
     }
     a.wthree-.about-link{
@@ -1485,7 +1485,7 @@ ul.w3-links li a i.fa:hover {
     .banner-text {
         padding: 5em 0;
     }
-    h2.w3ls-bnrtext {
+    h2.hgls-bnrtext {
         font-size: 2.26em;
     }
     a.buy{
@@ -1511,13 +1511,13 @@ ul.w3-links li a i.fa:hover {
     .vertical-skills li:before {
          left: 14px;
     }
-    .w3_tab_img_left {
+    .hg_tab_img_left {
         width: 100%;
     }
     .agileits-main-right {
         padding: 3em 1.5em;
     }
-    .agileits_w3layouts-footer {
+    .agileits_hglayouts-footer {
         padding: 1em 0;
     }
 }
@@ -1525,16 +1525,16 @@ ul.w3-links li a i.fa:hover {
     .banner-text h1 {
         font-size: 2.2em;
     }
-    .w3ls-section {
+    .hgls-section {
         padding: 2.7em 0;
     }
     .banner-text {
         padding: 4em 0 3em;
     }
-    h2.w3ls-bnrtext span {
+    h2.hgls-bnrtext span {
         font-weight: 600;
     }
-    h2.w3ls-bnrtext {
+    h2.hgls-bnrtext {
         font-size: 1.88em;
     }
     a.buy {
@@ -1551,16 +1551,16 @@ ul.w3-links li a i.fa:hover {
     .vertical-skills li {
        margin: 0 6px;
     }
-    .agileits_w3layouts-footer {
+    .agileits_hglayouts-footer {
         padding: 1em 0.8em;
     }
     .vertical-skills li {
         margin: 0 2px;
     }
-    .services-w3ls-row.agileits-w3layouts.service1, .services- w3ls-row.agileits-w3layouts.service4, .services-grid.agileits-w3layouts.service2 {
+    .services-hgls-row.agileits-hglayouts.service1, .services- hgls-row.agileits-hglayouts.service4, .services-grid.agileits-hglayouts.service2 {
         padding: 1em 0em 0.5em;
     }
-    .services-grid.agileits-w3layouts.service3, .services-w3ls-row.agileits-w3layouts.service4 {
+    .services-grid.agileits-hglayouts.service3, .services-hgls-row.agileits-hglayouts.service4 {
         padding: 0 1em;
     }
     #menuToggle {
