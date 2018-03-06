@@ -60,7 +60,7 @@ body a:focus {
     -o-background-size: cover;
     -moz-background-size: cover;
     -ms-background-size: cover;
-   
+
 }
 .banner-text {
     padding: 16em 0;
@@ -739,7 +739,7 @@ div#services {
 .services-grid img {
     padding: 2em;
     border: 10px solid #fff;
-    background: #f2849e;
+    background: #fff;
     margin: 3em 0;
     position: relative;
 }
@@ -1099,7 +1099,7 @@ ul.hg-links li a i.fa:hover {
 
 /* -- Responsive code -- */
 @media screen and (max-width: 1600px){
-    
+
 }
 @media screen and (max-width: 1440px){}
 @media screen and (max-width: 1366px){}
@@ -1246,7 +1246,7 @@ ul.hg-links li a i.fa:hover {
     }
 }
 @media screen and (max-width: 736px){
-    
+
     .banner-text {
         padding: 8.5em 0;
     }
@@ -1337,7 +1337,7 @@ ul.hg-links li a i.fa:hover {
     .nav-tabs {
         width: 82%;
     }
-    
+
 }
 @media screen and (max-width: 568px){
     .services-hgls-row.agileits-hglayouts.service1, .services- hgls-row.agileits-hglayouts.service4, .services-grid.agileits-hglayouts.service2 {
