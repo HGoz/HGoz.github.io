@@ -872,7 +872,7 @@ div#services {
 
 .contact-left-hgls {
     padding: 0;
-    background: rgba(0, 0, 0, 0.51);
+    background: rgba(255, 255, 255, 0.5);
     border-right: 1px solid rgba(255, 255, 255, 0.29);
 }
 
@@ -882,12 +882,12 @@ div#services {
 
 .contact-text-agileinfo a {
     line-height: 2;
-    color: #fff;
+    color: #000;
     font-size: 1.1em;
 }
 
 .contact-left-hgls p {
-    color: #fff;
+    color: #000;
     font-size: 1em;
     letter-spacing: 1px;
 }
